@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Emre SANAL | Développeur, Technicien Fonctionnel CRM, Ingénieur Junior IA</title>
+        <meta name="description" content="Portfolio d'Emre SANAL, développeur spécialisé en CRM, IA et automatisation. Découvrez mes projets et compétences en développement informatique.">
+        <meta name="keywords" content="portfolio, développeur, IA, Automatisation, OCR, Power Automate, Python, Web, Cloud, CRM, Salesforce, IT, Intelligence Artificielle, Machine Learning, Data Science, Programmation, Développement Web, SEO, référencement, Backend, Frontend, API, DevOps, gestion de projet, bot IA, automatisation, digitalisation, SEO, information, innovation technologique, architecture logicielle, algorithmes, systèmes d'information, architecture cloud, réseaux informatiques, Dev AI, automatisation des tâches, automatisation process, SaaS, cloud computing, transformation numérique, ingénieur IA, assistant CRM, développeur IA junior, web scraping, NLP, intégration continue, développement agile, solutions digitales, business intelligence, solutions d'entreprise, serverless">
+        <meta name="author" content="Emre SANAL">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!--
+        ========================================================================
+        Protection
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Author          : Emre SANAL
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Copyright (c) 2024 - Emre SANAL
+        ========================================================================
+        -->
+    </head>
+    <body class="bg-gray-900 text-white">
+        
+        <!-- Navbar Responsive avec menu burger -->
+        <nav class="bg-gray-800 p-4 flex justify-between items-center relative">
+            <div class="text-xl font-bold">Emre SANAL</div>
+            <button id="menu-toggle" class="md:hidden text-white focus:outline-none">☰</button>
+            <div id="menu" class="hidden md:flex md:space-x-4 absolute top-full left-0 w-full bg-gray-800 md:relative md:w-auto md:flex-row md:top-auto md:left-auto md:bg-transparent">
+                <a href="./views/blog.html" class="block md:inline-block px-3 py-2">Blog</a>
+                <a href="./views/aPropos.html" class="block md:inline-block px-3 py-2">Qui suis-je ?</a>
+                <a href="./views/contact.html" class="block md:inline-block px-3 py-2">Contact</a>
+            </div>
+        </nav>
+        
+        <!-- Accueil avec optimisation SEO -->
+        <section id="accueil" class="h-screen flex flex-col justify-center items-center text-center">
+            <h1 class="text-5xl font-bold">Emre SANAL</h1>
+            <p class="text-xl mt-4">Développeur Informatique | Technicien Fonctionnel CRM | Ingénieur IA </p>
+            <a href="./views/projets.html" class="mt-6 bg-blue-500 px-6 py-3 rounded-full text-lg">Découvrez mes projets</a>
+        </section>
+        
+        <!-- Aperçu des sections -->
+        <section class="py-20 text-center">
+            <h2 class="text-4xl font-bold">Explorez mon univers</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-6">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold">Mes Projets</h3>
+                    <p class="mt-2">Découvrez mes travaux en CRM, IA et automatisation.</p>
+                    <a href="./views/projets.html" class="text-blue-400 hover:underline">Voir plus</a>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold">Mes Compétences</h3>
+                    <p class="mt-2">Une expertise diversifiée en développement et gestion.</p>
+                    <a href="./views/competences.html" class="text-blue-400 hover:underline">Voir plus</a>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-2xl font-semibold">Blog</h3>
+                    <p class="mt-2">Articles sur CRM, IA, et automatisation.</p>
+                    <a href="./views/blog.html" class="text-blue-400 hover:underline">Lire</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="py-20 text-center relative">
+            <h2 class="text-4xl font-bold">Contactez-moi</h2>
+            <p class="mt-4 max-w-3xl mx-auto">Si vous souhaitez discuter d’un projet ou en savoir plus sur mon travail, n’hésitez pas à me contacter !</p>
+            <div class="mt-6">
+                <a href="./views/contact.html" class="bg-blue-500 px-6 py-3 rounded-full text-lg inline-block">Me contacter</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-center p-6 mt-10">
+            <p class="text-gray-400">© 2025 - Emre SANAL - Tous droits réservés</p>
+            <div class="mt-2">
+                <a href="https://github.com/Emree66" class="text-blue-400 hover:underline px-2">GitHub</a>
+                <a href="https://linkedin.com/in/emre-sanal" class="text-blue-400 hover:underline px-2">LinkedIn</a>
+            </div>
+        </footer>
+        
+        <!-- Script pour Menu Burger -->
+        <script>
+            document.getElementById('menu-toggle').addEventListener('click', function() {
+                document.getElementById('menu').classList.toggle('hidden');
+            });
+        </script>
+        
+    </body>
+</html>
