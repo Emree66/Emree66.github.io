@@ -1,0 +1,32 @@
+# Fichier robots.txt - Contrôle l'exploration des moteurs de recherche
+# Auteur : Emre SANAL
+# Dernière mise à jour : 30 janvier 2025
+
+# Empêcher tous les robots d'explorer les dossiers sensibles ou inutiles
+User-agent: *
+Disallow: /src/assets/
+Disallow: /src/views/
+
+
+# Autoriser l'indexation des pages principales
+Allow: /index.html
+Allow: /projets.html
+Allow: /competences.html
+Allow: /blog.html
+Allow: /contact.html
+
+# Spécifier le sitemap pour une exploration optimisée
+Sitemap: https://emree66.github.io/sitemap.xml
+
+# Empêcher l’indexation des paramètres d’URL inutiles
+Disallow: /*?sessionid=
+Disallow: /*?tracking=
+
+# Interdire un User-Agent spécifique (exemple : un bot malveillant)
+User-agent: BadBot
+Disallow: /
+
+# Autoriser Googlebot mais limiter certains accès
+User-agent: Googlebot
+Allow: /
+Disallow: /tests/

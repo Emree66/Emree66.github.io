@@ -1,0 +1,99 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+build/
+.cache/
+out/
+.next/
+.vercel/
+.vscode/
+.idea/
+.DS_Store
+
+# Logs & debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# TailwindCSS & CSS compilé
+public/css/output.css
+public/css/output.min.css
+src/assets/css/output.css
+src/assets/css/output.min.css
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Environments & Config
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Git & CI/CD
+.git/
+.gitignore
+.gitkeep
+
+# Deployment files
+*.zip
+*.tar.gz
+
+# Images cache
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# VSCode settings
+.settings/
+
+# Parcel
+.parcel-cache/
+
+# NPM
+.npm/
+
+# Firebase
+.firebase/
+
+# Jest
+jest/
+
+# Storybook
+storybook-static/
+
+# Tailwind JIT
+.tailwind/
+
+# Static cache
+.cache/
