@@ -1,6 +1,6 @@
 # Fichier robots.txt - Contrôle l'exploration des moteurs de recherche
 # Auteur : Emre SANAL
-# Dernière mise à jour : 30 janvier 2025
+# Dernière mise à jour : 8 février 2025
 
 # Empêcher tous les robots d'explorer les dossiers sensibles ou inutiles
 User-agent: *
